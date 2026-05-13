@@ -1,0 +1,25 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+publish/
+
+## NuGet
+*.nupkg
+*.nuget.props
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Env
+appsettings.local.json
