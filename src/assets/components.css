@@ -1,0 +1,172 @@
+/* Base Input Component */
+.ms-input-item {
+  appearance: auto;
+  background-color: rgb(246, 246, 246);
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  background-size: auto;
+
+  border: none;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+
+  box-sizing: border-box;
+
+  color: #666666;
+  cursor: text;
+  direction: ltr;
+  display: block;
+
+  font-family: Inter, Roboto, Helvetica, Arial, sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-size-adjust: none;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-emoji: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-variant-position: normal;
+  font-variation-settings: normal;
+  font-weight: 400;
+
+  height: 32px;
+
+  letter-spacing: normal;
+  line-height: normal;
+
+  margin: 0;
+
+  outline: none;
+  outline-color: rgb(0, 0, 0);
+  outline-style: none;
+  outline-width: 0;
+
+  overflow-clip-margin: 0;
+  overflow-x: clip;
+  overflow-y: clip;
+
+  padding: 0 12px;
+  padding-block-end: 0;
+  padding-block-start: 0;
+  padding-bottom: 0;
+  padding-inline-end: 12px;
+  padding-inline-start: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0;
+
+  text-align: start;
+  text-decoration: none;
+  text-decoration-color: rgb(0, 0, 0);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-indent: 0;
+  text-rendering: auto;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: none;
+
+  width: 100%;
+
+  word-spacing: 0;
+
+  -webkit-rtl-ordering: logical;
+  -webkit-border-image: none;
+}
+
+.ms-input-item:focus {
+  outline: none;
+  border: none;
+}
+
+.ms-input-item::placeholder {
+  color: #bfbfbf;
+}
+
+/* MS Input Container */
+.ms-input {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  height: 36px;
+  background-color: rgb(246, 246, 246);
+  transition: all 0.2s;
+}
+
+.ms-input:hover {
+  border-color: #34b057;
+}
+
+.ms-input:focus-within {
+  border-color: #40a9ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* MS Icon */
+.ms-icon-default {
+  color: rgb(175, 179, 193);
+}
+
+.ms-icon {
+  font-size: 16px;
+}
+
+.mi-search {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  background-color: rgb(110, 115, 122);
+  color: rgb(175, 179, 193);
+  mask-image: url(https://testcdnamisapp.misacdn.net/apps/payroll/static/img/Icon.c487640.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-position-x: 0px;
+  -webkit-mask-position-y: 0px;
+  mask-position: 0px 0px;
+  display: block;
+}
+
+.mi-search::before {
+  content: "";
+}
+
+/* Salary Component Title */
+.salary-component-title {
+  box-sizing: border-box;
+  color: rgb(33, 33, 33);
+  direction: ltr;
+  display: block;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 5px;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-weight: 700;
+  height: 30px;
+  letter-spacing: 0.384px;
+  line-height: 30px;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+  text-size-adjust: 100%;
+  text-transform: none;
+  unicode-bidi: isolate;
+  width: 183.163px;
+}
+
+/* Utility classes */
+.p-l-8 {
+  padding-left: 8px;
+}

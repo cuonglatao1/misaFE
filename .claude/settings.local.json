@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf src/components/*)",
+      "Bash(rm -rf src/views/*)",
+      "Bash(rm -rf src/stores/*)",
+      "Bash(rm -f src/assets/*.css)",
+      "Bash(npm run dev)",
+      "Bash(dir /s /b *.vue)",
+      "Bash(npm install devextreme devextreme-vue)",
+      "Bash(del \"c:\\Users\\DELL\\Misa_Fresher_Final_FE\\src\\views\\SalaryCompositionAdd.vue\" \"c:\\Users\\DELL\\Misa_Fresher_Final_FE\\src\\views\\SalaryCompositionEdit.vue\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
